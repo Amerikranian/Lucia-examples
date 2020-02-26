@@ -8,9 +8,9 @@ import sys
 #Should you wish to change it, the desired param is in __init__.py in Lucia's directory
 lucia.initialize()
 def main():
-		#Create a game window
+	#Create a game window
 	lucia.show_window("Timer example.")
-		#Create a timer
+	#Create a timer
 	countdown_timer = lucia.utils.timer.Timer()
 	#Loop for 2 seconds
 	while countdown_timer.elapsed <= 2000:
