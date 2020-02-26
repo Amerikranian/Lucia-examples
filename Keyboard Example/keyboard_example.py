@@ -8,7 +8,7 @@ import sys
 lucia.initialize()
 def main():
 	#Show window
-	lucia.show_window("Lucia keyboard example.")
+	lucia.show_window("Keyboard Example.")
 	while 1:
 		#Allow lucia to update it's internal queues and events
 		lucia.process_events()

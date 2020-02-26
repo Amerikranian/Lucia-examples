@@ -46,7 +46,7 @@ def move_object(obj, value):
 
 def main():
 	#Show window
-	lucia.show_window("2d sound example.")
+	lucia.show_window("2d Sound Example.")
 	#Create the player
 	listener = player()
 	#Play a sound on a 2d grid.

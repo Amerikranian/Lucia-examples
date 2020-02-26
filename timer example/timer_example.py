@@ -9,7 +9,7 @@ import sys
 lucia.initialize()
 def main():
 	#Create a game window
-	lucia.show_window("Timer example.")
+	lucia.show_window("Timer Example.")
 	#Create a timer
 	countdown_timer = lucia.utils.timer.Timer()
 	#Loop for 2 seconds

@@ -9,7 +9,7 @@ import sys
 lucia.initialize()
 def main():
 	#Show window
-	lucia.show_window("Lucia speech example.")
+	lucia.show_window("Speaking Example.")
 	while 1:
 		#Allow lucia to update it's internal queues and events
 		lucia.process_events()

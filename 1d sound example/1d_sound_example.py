@@ -27,7 +27,7 @@ lucia.initialize()
 sound_pool = lucia.audio_backend.SoundPool()
 def main():
 	#Show window
-	lucia.show_window("1d sound example.")
+	lucia.show_window("1d Sound Example.")
 	#Create the player
 	listener = player()
 	#Play a sound on a 1d grid.

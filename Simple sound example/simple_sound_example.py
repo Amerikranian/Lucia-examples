@@ -12,7 +12,7 @@ lucia.initialize()
 sound_pool = lucia.audio_backend.SoundPool()
 def main():
 	#Show window
-	lucia.show_window("Simple sound example.")
+	lucia.show_window("Simple Sound Example.")
 	#Play a stationary sound
 	#Stationary means that the sound cannot move, regardless of what the player does
 	#The first parameter is the filename, while the second one dictates whether the sound can loop or not
@@ -20,6 +20,7 @@ def main():
 	while 1:
 		#Allow lucia to update it's internal queues and events
 		lucia.process_events()
+		#No extra code is needed to handle when the user presses alt f4, Lucia does this on it's own.
 		#Sleep for 2 milliseconds
 		lucia.pygame.time.wait(2)
 
