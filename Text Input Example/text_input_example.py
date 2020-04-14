@@ -9,10 +9,10 @@ lucia.initialize()
 def main():
 	#Create a game window
 	lucia.show_window("Input Example.")
-	#Create a virtual input object. the Parameters are message (what is to be spoken upon running the input), password (boolean) dictating if letters are hidden or not, whitelist (a list of allowed characters, see the module itself for more details), value, the initial value of the input string), callback (a function which will be called in the main loop should it be passt to the object), and hidden_message (the message which will be spoken if the password is set to True and the user types in a letter).
-	input_handler = lucia.ui.virtualinput.VirtualInput("Please enter something!")
+	#Create the virtualInput object. See the module itself for further details
+	input_handler = lucia.ui.virtualinput.virtualInput()
 	#Gather our user input.
-	user_response = input_handler.run()
+	user_response = input_handler.run("Please enter something!")
 	#Output our response
 	print(user_response)
 	#Properly quit
